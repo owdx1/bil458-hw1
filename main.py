@@ -1,9 +1,9 @@
 def print_pyramid(rows):
     for i in range(1, rows + 1):
-        # Print spaces before the stars
+        # Yıldızlardan önce boşluk ekle
         print(" " * (rows - i), end="")
         
-        # Print stars for the current row
+        # Şuanki satır için yıldız yazma
         print("* " * i)
         
 
